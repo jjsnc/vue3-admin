@@ -1,8 +1,8 @@
 // 1. 定义路由组件.
 import { createRouter,createWebHashHistory } from 'vue-router'
 // 也可以从其他文件导入
-import Home from '@/views/home.vue'
-import About from '@/views/about.vue'
+import Home from '@/views/home/index.vue'
+import About from '@/views/about/index.vue'
 
 
 // 2. 定义一些路由
@@ -22,6 +22,3 @@ export const router = createRouter({
   routes, // `routes: routes` 的缩写
 })
 
-// 5. 创建并挂载根实例
-
-// 现在，应用已经启动了！
