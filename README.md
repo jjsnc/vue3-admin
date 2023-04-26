@@ -7,8 +7,11 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
 
-第一步
+第一步:安装vite4.+ + vue3 + js
 
-安装vite + vue + js
+yarn create vite
 
+第二步: 安装route4.x 
+
+yarn add vue-router@4
 
